@@ -3,6 +3,10 @@ export default class Problem {
       name: 'zs',
       age: 12
    }
+   status = {
+      goods: 'xiaowang',
+      info: '小王'
+   }
    // 实例化类自动调用
    constructor() {
       this.getData();
