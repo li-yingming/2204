@@ -1,4 +1,8 @@
 export default class Problem {
+   defaultProps = {
+      name: 'zs',
+      age: 12
+   }
    // 实例化类自动调用
    constructor() {
       this.getData();
